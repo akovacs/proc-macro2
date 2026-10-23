@@ -1,0 +1,8 @@
+[toolchain]
+# Nightly for 1.85.0
+# channel = "nightly-2024-12-15"
+# Use stable 1.85.0 for now, plan upgrade to 1.88.0 or 1.89.0 in other project
+channel = "1.85.0"
+
+# channel = "nightly-2025-06-20"
+# channel = "1.88.0"

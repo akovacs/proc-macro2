@@ -279,6 +279,7 @@ pub use stable::FileName;
 
 // NOTE: We have to generate our own filename object here because we can't wrap
 // the one provided by proc_macro.
+#[cfg(procmacro2_semver_exempt)]
 #[derive(Clone, PartialEq, Eq)]
 pub enum SourceFile {
     Nightly(proc_macro::SourceFile, FileName),
